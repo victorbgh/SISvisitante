@@ -1,0 +1,75 @@
+body {
+    background-color: #99ffff;
+}
+
+.header {
+    height: 60px;
+    background-color: #999999;
+    line-height: 60px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.header h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.menu ul {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.menu ul li {
+    float: left;
+    padding: 10px;
+    border-right: 1px solid #CCCCCC;
+}
+
+.menu ul li.last {
+    border: none;
+}
+
+.container {
+    
+    width: 800px;
+    min-height: 200px;
+    margin: 50px auto;
+    border: 1px solid #CCCCCC;
+    background: #EFEFEF;
+}
+
+.content {
+    padding: 10px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 11px;
+}
+
+table {
+    margin: 10px 0;
+    width: 100%;
+}
+
+table tr td, table tr th  {
+    border: 1px solid black;
+}
+
+.login {
+    border: 1px solid #CCCCCC;
+    width: 400px;
+    margin: 30px auto;
+    padding: 5px;
+}
+
+form label {
+    display: block;
+    width: 20%;
+    float: left;
+}
